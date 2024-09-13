@@ -5,7 +5,7 @@ for (int zeroToTwenty = 0; zeroToTwenty <= 20; zeroToTwenty++) {
 
 //Task 4-b
 for (int zeroToTwenty = 0; zeroToTwenty <= 20; zeroToTwenty ++) {
-  if (zeroToTwenty % 2==0){
+  if (zeroToTwenty % 2==0);{
   println(zeroToTwenty);
 }
 }

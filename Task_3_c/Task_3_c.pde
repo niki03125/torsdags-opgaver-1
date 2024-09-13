@@ -10,4 +10,4 @@ if((x != 10 || x !=20 || x !=30||
 }else{
       println("Failure!");      
 }
-println (x +  " "+ y + " " +z);
+println (x +  " " + y + " " + z);

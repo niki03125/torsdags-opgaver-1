@@ -26,7 +26,7 @@ void draw() {
     ellipse(width/2, height-height/4, width/4, height/4);
     break;
   case 100:
-    fill(lightOff);
+    fill(redOn);
     ellipse(width/2, height/4, width/4, height/4);
     fill(yellowOn);
     ellipse(width/2, height/2, width/4, height/4);
