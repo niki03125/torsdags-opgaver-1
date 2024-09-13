@@ -4,8 +4,10 @@ for (int zeroToTwenty = 0; zeroToTwenty <= 20; zeroToTwenty++) {
 }
 
 //Task 4-b
-for (int zeroToTwenty = 0; zeroToTwenty <= 20; zeroToTwenty +=2) {
+for (int zeroToTwenty = 0; zeroToTwenty <= 20; zeroToTwenty ++) {
+  if (zeroToTwenty % 2==0){
   println(zeroToTwenty);
+}
 }
 
 //Task 4-c  
@@ -26,7 +28,7 @@ println("Take Off!");
 
 int countUp= 0;
 
-while ( countUp < 20){
+while ( countUp <= 20){
   countUp+=2;
   println(countUp);
 }
